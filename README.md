@@ -449,6 +449,20 @@ Simple, elegant and feature-rich CCTV/NVR for your cameras
 
 [:books: motionEye add-on documentation][addon-doc-motioneye]
 
+### &#10003; [Grist Core][addon-grist-core]
+
+![Latest Version][grist-core-version-shield]
+![Supports armhf Architecture][grist-core-armhf-shield]
+![Supports aarch64 Architecture][grist-core-aarch64-shield]
+![Supports amd64 Architecture][grist-core-amd64-shield]
+![Supports i386 Architecture][grist-core-i386-shield]
+![Docker Pulls][grist-core-pulls-shield]
+
+Self-hosted spreadsheet database.
+
+[:books: Grist Core add-on documentation][addon-doc-grist-core]
+
+
 ## Releases
 
 Add-on releases are **NOT** based on [Semantic Versioning][semver], unlike
@@ -502,6 +516,7 @@ on the correct GitHub repository matching the add-on.
 - [Open an issue for the add-on: Traccar][traccar-issue]
 - [Open an issue for the add-on: UniFi Controller][unifi-issue]
 - [Open an issue for the add-on: motionEye][motioneye-issue]
+- [Open an issue for the add-on: Grist Core][grist-core-issue]
 
 For a general repository issue or add-on ideas [open an issue here][issue]
 
@@ -839,6 +854,15 @@ SOFTWARE.
 [motioneye-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [motioneye-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [motioneye-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[addon-grist-core]: https://github.com/hassio-addons/addon-grist-core/tree/v0.1.0
+[addon-doc-grist-core]: https://github.com/hassio-addons/addon-grist-core/blob/v0.1.0/README.md
+[grist-core-issue]: https://github.com/hassio-addons/addon-grist-core/issues
+[grist-core-version-shield]: https://img.shields.io/badge/version-v0.1.0-blue.svg
+[grist-core-pulls-shield]: https://img.shields.io/docker/pulls/hassioaddons/grist-core.svg
+[grist-core-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[grist-core-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[grist-core-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[grist-core-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 [awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
 [bountysource-shield]: https://img.shields.io/bountysource/team/hassio-addons/activity.svg
 [bountysource]: https://www.bountysource.com/teams/hassio-addons/issues

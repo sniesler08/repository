@@ -130,3 +130,8 @@ addons:
     target: unifi
     image: hassioaddons/unifi
 
+  grist-core:
+    repository: hassio-addons/addon-grist-core
+    target: grist-core
+    image: hassioaddons/grist-core-{arch}
+
